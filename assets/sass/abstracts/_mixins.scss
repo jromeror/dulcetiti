@@ -1,3 +1,4 @@
+/* MIXIN */
 @mixin btn($nombre) {
     .btn-#{$nombre} {
         color: $bg-blanco;
