@@ -1,4 +1,40 @@
 @charset "UTF-8";
+.btn-newsletter {
+  color: #FFF;
+  background-color: #E39FC6;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  text-decoration: none;
+}
+.btn-newsletter:hover {
+  background-color: #E72067;
+}
+.btn-newsletter:focus {
+  background-color: #efdfdf;
+}
+
+.btn-rosa {
+  border: none;
+  text-decoration: none;
+  color: #FFF;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  transition: background 0.5s;
+}
+.btn-rosa:hover {
+  background-color: #E72067;
+}
+.btn-rosa:focus {
+  background-color: #efdfdf;
+}
+
+.btn-rosa {
+  background: #E39FC6;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -9877,7 +9913,7 @@ h3 {
 }
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url("../img/fondo2.png");
+  background-image: url("../img/fondo.png");
 }
 
 footer {
@@ -9917,6 +9953,10 @@ body {
     margin: 2rem 0;
     padding-top: 8rem;
   }
+}
+.boton_a {
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
