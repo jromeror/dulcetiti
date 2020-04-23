@@ -78,7 +78,7 @@
             </figure>
             <figure class="col-6 col-md-3">
               <img src="assets/img/04.jpg" alt="" class="img-thumbnail">
-                <h4>Pie de frutas</h4>
+                <h4>Kuchen</h4>
             </figure>
             <figure class="col-6 col-md-3">
               <img src="assets/img/05.jpg" alt="Proyecto" class="img-thumbnail">
@@ -110,19 +110,19 @@
         <div class="row">
         <div class="card-deck">
           <div class="card col-12 col-md-6">
-            <img src="assets/img/service-01.jpg" class="card-img-top" alt="Alfajores Personalizados">
+            <img src="assets/img/service-01.jpg" class="card-img-top" alt="Alfajores Personalizados" data-toggle="modal" data-target="#alfajores__personalizados">
             <div class="card-body">
-              <h5 class="card-title">Alfajores personalizados</h5>
+              <h4 class="card-title">Alfajores personalizados</h4>
               <p class="card-text  mt-3 text-left">Solicita alfajores personalizados bañados en chocolate, chocolate blanco, colores y relleno de manjar o frambuesa.</p>
-              <button class=""><a href="">Ver más</a></button>
+              <button class=""><a href="">Ver productos</a></button>
             </div>
           </div>
           <div class="card col-12 col-md-6">
-            <img src="assets/img/service-02.jpg" class="card-img-top" alt="Alfajores Personalizados">
+            <img src="assets/img/service-02.jpg" class="card-img-top" alt="Coctelería Dulce" data-toggle="modal" data-target="#cocteleria__dulce">
             <div class="card-body">
-              <h5 class="card-title">Coctelería dulce</h5>
-              <p class="card-text mt-3 text-left">Para todo tipo de eventos, entre nuestros productos tenemos Pie de Limón, Cupcke, Mini tartalestas, Donas, Cachitos rellenos, etc.</p>
-              <button class=""><a href="">Ver más</a></button>
+              <h4 class="card-title">Coctelería dulce</h4>
+              <p class="card-text mt-3 text-left">Nuestro cóctel dulce son 100% caseros, deliciosos y de excelente calidad, para que disfrutes de tu fiesta y con el mejor precio.</p>
+              <button class=""><a href="">Ver productos</a></button>
             </div>
           </div>
 
@@ -132,7 +132,50 @@
 
       <!-- END SERVICES -->
 
+      <!-- BEGIN MODAL BOOTSTRAP 4.4.1 -->
+
+      <div id="alfajores__personalizados" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Alfajores Personalizados</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Contenido.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="cocteleria__dulce" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Coctelería Dulce</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Contenido</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- END MODAL BOOTSTRAP 4.4.1 -->
+
       <!-- BEGIN NEWSLATTER-->
+
     <div id="contacto__nav" class="container">
       <h3 class="mb-5 mt-5 text-center"> Suscribete a mi newsletter</h3>
       <form>
@@ -150,18 +193,22 @@
 
       <!-- BEGIN FOOTER -->
     
-      <div class="footer__style text-center">
-        <a href="#"><i class="fab fa-facebook-square fa-3x"></i></a>
-        <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
-        <p><small>DulceTiti 2020, Todos los derechos reservados.</small></p>
-      </div>
+      <footer class="text-center">
+        <a href="https://www.facebook.com/" target="_blank" class="mr-3"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://www.instagram.com/instagram/?hl=es-la" class="ml-3"><i class="fab fa-instagram fa-3x"></i></a>
+        <p><small>© DulceTiti 2020 Todos los derechos reservados</small></p>
+      </footer>
     
       <!-- END FOOTER -->
   
-  <script type="text/javascript" src="assets/js/script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   
+<!--jQuery 3.3.1 sin slim-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<!--Popper JS 1.14.3-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<!--Bootstrap JS 4.2.1-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<!--Mi script-->
+<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>

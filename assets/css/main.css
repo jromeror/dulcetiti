@@ -9880,26 +9880,43 @@ body {
   background-image: url("../img/fondo2.png");
 }
 
+footer {
+  background-color: #E39FC6;
+}
+
 body {
   margin: 0;
 }
 
-.header__image {
-  min-height: 100vh;
-  background-image: url("../img/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-}
+@media (max-width: 575.98px) {
+  .header__logo {
+    width: 80%;
+    margin: 2rem 0;
+    padding-top: 8rem;
+  }
 
-.header__logo {
-  width: 25%;
-  margin: 2rem 0;
-  padding-top: 8rem;
+  .header__image {
+    min-height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+  }
 }
+@media (min-width: 1200px) {
+  .header__image {
+    min-height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+  }
 
-.footer__style {
-  background-color: #E39FC6;
+  .header__logo {
+    width: 25%;
+    margin: 2rem 0;
+    padding-top: 8rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
