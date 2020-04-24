@@ -4,5 +4,23 @@ body {
 }
 
 h3 {
-    font-weight: $weight-bold;
+    font-size: $x-large;
+}
+
+.title__principal {
+    font-size: $xxxx-large;
+}
+
+.card__texto {
+font-family: $font-pt-sans;
+font-size: $s-large;
+}
+
+.card__texto-subtext {
+font-size: $x-large;
+font-weight: $weight-regular;
+}
+
+.servicios__cursor {
+    cursor: pointer;
 }

@@ -13,9 +13,24 @@ a{
 footer {
     padding: 10px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 small {
     font-size: $large;
 }
 
+.footer__text {
+    margin-bottom: 0px;
+}
 
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    footer {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .footer__text {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+}

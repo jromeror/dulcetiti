@@ -1,7 +1,7 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
     .nav__title-menu {
-        font-size: $large;
+        font-size: $m-large;
     }
 }
 
@@ -24,6 +24,10 @@
     .nav__title-menu {
         font-size: $x-large;
     }
+    .navbar__nav {
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -31,4 +35,8 @@
   .nav__title-menu {
       font-size: $x-large;
   }
+  .navbar__nav {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
 }

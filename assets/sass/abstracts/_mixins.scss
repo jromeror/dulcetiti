@@ -1,6 +1,7 @@
 /* MIXIN */
 @mixin btn($nombre) {
     .btn-#{$nombre} {
+        font-family: $font-pt-sans;
         color: $bg-blanco;
         background-color: $bg-rosa;
         display: block;
