@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* MIXIN */
 .btn-newsletter {
   color: #FFF;
   background-color: #E39FC6;
@@ -16,6 +17,7 @@
   background-color: #efdfdf;
 }
 
+/* PLACEHOLDER & EXTEND */
 .btn-rosa {
   border: none;
   text-decoration: none;
@@ -9913,7 +9915,7 @@ h3 {
 }
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url("../img/fondo.png");
+  background-image: url("../img/background-02.png");
 }
 
 footer {
@@ -9924,6 +9926,53 @@ body {
   margin: 0;
 }
 
+body {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.medalla {
+  opacity: 1;
+  animation: animate 5s linear 0s infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 575.98px) {
+  .nav__title-menu {
+    font-size: 18px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav__title-menu {
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav__title-menu {
+    font-size: 25px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav__title-menu {
+    font-size: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .nav__title-menu {
+    font-size: 25px;
+  }
+}
 @media (max-width: 575.98px) {
   .header__logo {
     width: 80%;
@@ -9933,7 +9982,7 @@ body {
 
   .header__image {
     min-height: 100vh;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/background-01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
@@ -9942,7 +9991,7 @@ body {
 @media (min-width: 1200px) {
   .header__image {
     min-height: 100vh;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/background-01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
@@ -9953,7 +10002,32 @@ body {
     margin: 2rem 0;
     padding-top: 8rem;
   }
+
+  .header__title {
+    font-size: 25px;
+  }
 }
+.footer__icono-face {
+  color: blue;
+}
+
+.footer_icono-insta {
+  color: orangered;
+}
+
+a i {
+  font-size: 25px;
+}
+
+footer {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+small {
+  font-size: 18px;
+}
+
 .boton_a {
   text-decoration: none;
   color: white;
