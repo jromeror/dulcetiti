@@ -9941,6 +9941,14 @@ h3 {
   font-size: 36px;
 }
 
+.subtitle__principal {
+  font-size: 28px;
+}
+
+.subtitle__principal-texto {
+  font-size: 18px;
+}
+
 .card__texto {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
